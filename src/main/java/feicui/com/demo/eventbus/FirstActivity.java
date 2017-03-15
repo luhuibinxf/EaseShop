@@ -35,6 +35,8 @@ public class FirstActivity extends AppCompatActivity {
             }
         });
 
+        Toast.makeText(this, "这只是一个测试", Toast.LENGTH_SHORT).show();
+
     }
 
     @Subscribe(threadMode = ThreadMode.MAIN)
